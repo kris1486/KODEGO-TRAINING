@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: url('fontSP/DMSans-Bold.ttf');
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'DM Sans';font-size: 22px;
+}
+.layout_1
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url('imagesSP/background_1.png');
+   
+}
+.header
+{
+    height: 5vh;
+    display: flex;
+}
+.logo
+{
+    width: 70px;
+    height: 70px;
+    padding-top: 30px;
+    margin-left: 100px;
+}            
+h4
+{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+    display: inline-block;
+    padding-top: 40px;           
+}
+nav
+{
+    flex: 2px;
+    text-align: right;
+    margin-right: 60px;
+    padding-top: 40px;
+}
+nav ul li
+{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+.greeting
+{
+    font-size: 50px;
+    padding-top: 20%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20%;
+}
+
+.layout_2
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url('imagesSP/background_2.png');
+     
+}
+.layout_3
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url('imagesSP/background_3.png');
+     
+}
+.layout_4
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url('imagesSP/background_4.png');
+     
+}
